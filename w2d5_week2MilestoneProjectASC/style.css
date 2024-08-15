@@ -1,0 +1,57 @@
+body {
+    background-color: antiquewhite;
+}
+
+.NavBar {
+    font-family: Helvetica;
+    color: white;	
+    font-size: 32px;	
+    padding: 5px;
+}
+
+nav {
+    background-color: #272D33;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.items:hover {
+    background-color: gray;
+    opacity: 0.5;
+}
+
+.sec-one {
+    display: flex;
+
+}
+
+.sec-one img {
+    width: 300px;
+    height: auto;
+}
+
+.aboutme {
+    margin: 10px;
+}
+
+.stats {
+        background-color:  #8CC48E;
+    padding: 20px;
+    border: 2px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: black;
+}
+
+.stats ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h3 {
+    text-align: center;
+}
+
